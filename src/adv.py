@@ -24,7 +24,7 @@ chamber! Sadly, it has already been completely emptied by
 earlier adventurers. The only exit is to the south.""",[],),
 
     'library': Room("Library", """Look out for the ghost and things that lurk behind 
-books. West to the foyer, East to the kitchen, North to the transporter room""",[],),
+books. West to the foyer, East to the kitchen""",[],),
 
     'kitchen': Room("Kitchen", """You are in the kitchen. Grab as many weapons as you 
 can, you're gonna need them! East to the foyer, South to the Transport Room.""", [],),
@@ -102,8 +102,6 @@ while True:
         set_direction(player1, direction[0])
     elif direction[0] == 'q':
         break
-    else:
-        print(f'Sorry, that direction is not allowed.')
 
 
     
